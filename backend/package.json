@@ -1,0 +1,46 @@
+{
+    "name": "tradepulse-backend",
+    "version": "1.0.0",
+    "description": "TradePulse Backend API",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "nodemon src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.0.0",
+        "morgan": "^1.10.0",
+        "compression": "^1.7.4",
+        "jsonwebtoken": "^9.0.2",
+        "bcryptjs": "^2.4.3",
+        "express-rate-limit": "^6.8.1",
+        "pg": "^8.11.0",
+        "sequelize": "^6.32.1",
+        "redis": "^4.6.5",
+        "dotenv": "^16.1.4",
+        "joi": "^17.9.2",
+        "express-validator": "^7.0.1",
+        "multer": "^1.4.5",
+        "pdfkit": "^0.14.0",
+        "nodemailer": "^6.9.4"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.4",
+        "@types/node": "^20.2.5",
+        "@types/express": "^4.17.17",
+        "@types/cors": "^2.8.13",
+        "@types/bcryptjs": "^2.4.2",
+        "@types/jsonwebtoken": "^9.0.2",
+        "@types/pg": "^8.6.6",
+        "@types/morgan": "^1.9.4",
+        "@types/compression": "^1.7.2",
+        "@types/multer": "^1.4.7",
+        "@types/nodemailer": "^6.4.9",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1"
+    }
+}
